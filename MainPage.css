@@ -1,8 +1,5 @@
 .parent {
-    position: absolute;
     display: block;
-    inset: 0;
-    margin:auto;
 }
 
 .main {
@@ -17,6 +14,9 @@
     color:#FFF;
     outline: #000;
     z-index: 2;
+    position: absolute;
+    inset: 0;
+    margin:auto;
 }
 
 .buttongrid {
