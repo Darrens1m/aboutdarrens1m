@@ -99,6 +99,10 @@
     height: 80%;
   }
 
+  .main {
+    height: 60%;
+  }
+
   .box, .gridlayout {
     width: 107%;
     height: auto;
