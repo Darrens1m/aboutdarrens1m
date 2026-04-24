@@ -52,18 +52,10 @@ hr {
         width: 100%;
         height: auto;
     }
-    .main {
-        width: 100%;
-        height: auto;
-    }
 }
 
 @media (max-aspect-ratio:16/9) {
     .video {
-        width: auto;
-        height: 100%;
-    }
-    .main {
         width: auto;
         height: 100%;
     }
