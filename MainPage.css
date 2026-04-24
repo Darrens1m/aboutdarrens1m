@@ -1,11 +1,15 @@
+.parent {
+    position: absolute;
+    display: block;
+    inset: 0;
+    margin:auto;
+}
+
 .main {
     --angle: 0deg;
     background-color: rgba(0,0,0,.7);
-    width: 490px;
-    height: 490px;
-    position: absolute;
-    inset: 0;
-    margin:auto;
+    width: 500px;
+    height: 500px;
     text-align: center;
     align-content: center;;
     padding: 1em;
