@@ -1,0 +1,62 @@
+.main {
+    --angle: 0deg;
+    background-color: rgba(0,0,0,.7);
+    width: 490px;
+    height: 490px;
+    position: absolute;
+    inset: 0;
+    margin:auto;
+    text-align: center;
+    align-content: center;;
+    padding: 1em;
+    border-radius: 15px;
+    color:#FFF;
+    outline: #000;
+    z-index: 2;
+}
+
+.buttongrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: .3em;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: rgba(138, 255, 144, 0.397);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: .5s linear;
+    width: 100%;
+    padding: .175em;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: .5s linear;
+}
+
+hr {
+    width:1px;
+    background-color: #FFF;
+    width: 90%;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .video {
+        width: auto;
+        height: 100%;
+    }
+}
