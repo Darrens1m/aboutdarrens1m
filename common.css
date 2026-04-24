@@ -5,3 +5,9 @@
     bottom: 0;
     z-index: -1;
 }
+
+hr {
+    width:1px;
+    background-color: #FFF;
+    width: 90%;
+}
