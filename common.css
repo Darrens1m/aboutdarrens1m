@@ -11,3 +11,9 @@ hr {
     background-color: #FFF;
     width: 90%;
 }
+
+hrside {
+    height: 90%;
+    width: 1px;
+    border-left: solid white;
+}

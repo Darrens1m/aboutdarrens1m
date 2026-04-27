@@ -9,6 +9,13 @@
     width: 100%;
 }
 
+.gridlayout2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5em;
+    width: 100%;
+}
+
 .box {
     background-color: rgba(0,0,0,.7);
     width: 96%;
@@ -21,11 +28,28 @@
     outline: #000;
     z-index: 1;
     font-family: monospace;
+    justify-self: center;
+    display: inline-block;
+    align-items: center;
+    border: #FFF solid 1px;
 }
 
 .bigpages {
     border-radius: 15px;
     width: 650px;
+    height: 650px;
+    text-align: center;
+    align-content: center;
+    padding: 1em;
+    position: absolute;
+    inset: 0;
+    margin:auto;    
+    background-color: rgba(0,0,0,.7);
+}
+
+.biggerpages {
+    border-radius: 15px;
+    width: 1000px;
     height: 650px;
     text-align: center;
     align-content: center;
@@ -94,7 +118,7 @@
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-  .parent, .main, .bigpages {
+  .parent, .main, .bigpages, .biggerpages {
     width: 80%;
     height: 80%;
   }
@@ -104,7 +128,22 @@
   }
 
   .box, .gridlayout {
-    width: 107%;
+    width: 100%;
     height: auto;
+  }
+
+  .gridlayout2 {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    gap: 2em;
+    width: 100%;
+  }
+
+  .gridlayout2 .box {
+    font-size: small;
+  }
+
+  .box img  {
+    display: none;
   }
 }
